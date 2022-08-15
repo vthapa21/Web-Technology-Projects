@@ -1,0 +1,153 @@
+
+    body{
+        font-family: sans-serif;
+        /* font-family: 'Shadows Into Light', cursive; */
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('./gym3.jpg');
+        image-resolution: 14px;
+        background-size: cover;
+        
+        
+        
+    }
+
+    .left{
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 20px;
+        left: 34px;
+    }
+    .left img{
+        width: 150px;
+        filter: invert(100%);
+        
+
+    }
+    .left div{
+        text-align: center;
+        line-height: 20px;
+    }
+    .right{
+        position: absolute;
+        top: 22px;
+        right: 34px;
+        display: inline-block;
+        /* border: 2px solid green; */
+    }
+
+    .mid{
+        display: block;
+        width: 35%;
+        margin: 12px auto;
+        /* border: 2px solid blue; */
+    }
+    
+    .navbar{
+        display: inline-block;
+        width: 450px;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 16px;
+        
+
+    }
+
+    .navbar li a{
+        color: wheat;
+        text-decoration:dotted;
+        padding: 38px 23px;
+    }
+    .navbar li a:hover, a.active{
+        color: grey;
+        text-decoration:underline;
+        
+    }
+
+    .btn{
+        position: relative;
+        left: -440px;
+        top: 100px;
+        background-color: #ebf3eb; 
+        border: none;
+        color: black;
+        padding: 14px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        border-radius: 50%;
+        transition-duration: 0.5s;
+        
+        
+    }
+
+    .btn:hover {
+        background-color: #4CAF50; 
+        color: white;
+        box-shadow: 0 8px 16px 0 rgb(246, 240, 240), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+    .container{
+        border: 2px solid white;
+        margin: 140px 20px;
+        width: 35%;
+        padding: 70px;
+        border-radius: 30px;
+
+    }
+    .container h1{
+        color: white;
+        text-align: center;
+    }
+    .form-group input {
+        font-family: sans-serif;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .container button{
+        margin: 20px;
+        color: blue;
+        cursor: pointer;
+        display: block;
+    }
+
+    .form-group{
+        padding: 10px;
+    }
+
+
+    #b1{
+        background-color: white;
+        color: black;
+        border: 2px solid #4CAF50;
+        width: 140px;
+        padding: 14px 20px;
+    }
+
+
+    .i1{
+        background: transparent;
+    }
+
+
+    .a1{
+        font-size: 20px;
+        font-weight: bolder;
+        justify-content: left;
+        
+    }
+
+
+    .l1:hover{
+        font-weight: bolder;
+
+    }
